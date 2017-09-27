@@ -27,11 +27,14 @@
     "sails": "~0.12.8",
     "sails-disk": "~0.10.9",
     "sails-mongo": "^0.12.1",
-    "sessions": "0.0.2-7"
+    "sessions": "0.0.2-7",
+    "snyk": "^1.41.1"
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "app.js",
   "repository": {
@@ -39,5 +42,6 @@
     "url": "git://github.com/Zeus_Yousif/myApp.git"
   },
   "author": "Zeus_Yousif",
-  "license": ""
+  "license": "",
+  "snyk": true
 }
