@@ -24,7 +24,7 @@
     "grunt-sync": "0.5.2",
     "include-all": "^1.0.0",
     "rc": "1.0.1",
-    "sails": "~1.0.0",
+    "sails": "~1.2.2",
     "sails-disk": "~0.10.9",
     "sails-mongo": "^0.12.1",
     "sessions": "0.0.2-7",
