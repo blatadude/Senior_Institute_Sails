@@ -28,13 +28,14 @@
     "sails-disk": "~0.10.9",
     "sails-mongo": "^0.12.1",
     "sessions": "0.0.2-7",
-    "snyk": "^1.88.0"
+    "snyk": "^1.192.3"
   },
   "scripts": {
     "debug": "node debug app.js",
     "start": "node app.js",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "app.js",
   "repository": {
